@@ -1,7 +1,11 @@
+/* général */
+
 html {
     font-size: 62.5%;
     box-sizing: border-box;
   }
+
+  /* body */
 
   body {
     background-color: wheat;
@@ -12,6 +16,8 @@ html {
     padding: 0;
     box-sizing: inherit;
   }
+
+  /* calculatrice */
 
   .calculator {
     border: 1px solid #ccc;
@@ -24,6 +30,8 @@ html {
     background-color: #fff;
     box-shadow: 10px 10px 5px 0px rgba(46, 46, 46, 0.75);
   }
+
+  /* écran de la calculatrice */
 
   .calculator-screen {
     width: 100%;
@@ -38,6 +46,8 @@ html {
     padding-left: 10px;
   }
 
+  /* bouttons */
+
   button {
     height: 60px;
     background-color: #fff;
@@ -46,10 +56,6 @@ html {
     background-color: #fff;
     font-size: 2rem;
     color: #333;
-  }
-  
-  button:hover {
-    background-color: #eaeaea;
   }
   
   .operand, .operator {
@@ -62,16 +68,24 @@ html {
     color: #fff;
   }
   
-  .all-clear:hover {
-    background-color: #f17377;
-  }
-  
   .equal-sign {
     background-color: #2e86c0;
     border-color: #337cac;
     color: #fff;
+    height: 100%;
+    grid-area: 2 / 4 / 6 / 5;
   }
-  
+
+  /* hover des bouttons */
+
+  button:hover {
+      background-color: #eaeaea;
+    }
+
+  .all-clear:hover {
+      background-color: #f17377;
+    }
+
   .equal-sign:hover {
     background-color: #4e9ed4;
   }
@@ -86,13 +100,6 @@ html {
     padding: 20px;
   }
 
-  .equal-sign {
-    background-color: #2e86c0;
-    border-color: #337cac;
-    color: #fff;
-    height: 100%;
-    grid-area: 2 / 4 / 6 / 5;
-  }
-
+  
 
   
